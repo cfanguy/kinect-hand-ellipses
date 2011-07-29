@@ -1,0 +1,17 @@
+﻿<Window x:Class="Kinect_Hand_Ellipses.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded" Closed="Window_Closed">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel>
+                <TextBox FontSize="18" Focusable="False" BorderThickness="0" Text="Hand Ellipses" HorizontalAlignment="Center"/>
+                <Canvas Width="640" Height="480" Name="skeleton" Margin="10 0 10 10" Background="Black" ClipToBounds="True"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel></StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Window>
